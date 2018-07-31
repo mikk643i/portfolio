@@ -310,7 +310,7 @@ li {
     margin: auto;
 }
 
-animations_top {}
+
 
 .karakterdesign {
     padding: 5% 0 0 0;
@@ -362,6 +362,46 @@ animations_top {}
 .wrapperani {
     padding: 0 15px;
 
+}
 
 
+.kea_app_papirprototype img {
+    width: 46%;
+    float: left;
+    padding: 2%;
+
+}
+
+.linkdoku a {
+    color: white;
+
+}
+
+.linkdoku {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.figimgux {
+    width: 100%;
+    text-align: left;
+
+    font-size: 30px;
+}
+
+.iframe {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.joe_text_left {
+    width: 100%;
+}
+
+.unlisted {
+    width: 30%;
+    margin: auto;
+    padding top: 10px;
+    padding-bottom: 10px;
 }
