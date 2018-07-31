@@ -8,7 +8,8 @@ html {
 
 
 body {
-    max-height: 100%;
+    /*max-height: 100%;*/
+    max-width: 1280px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -138,9 +139,229 @@ h1 {
 
 }
 
-.tema_2_right img {
-    display: flex;
-    max-width: 300px;
+.tema_2_right {
+    /*display: block;*/
+    /*max-width: 300px;*/
+}
+
+
+@media screen and (max-width: 1024px) {
+    .webversion {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .webversion {
+        width: calc(50% - 10px);
+        float: left;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .webversion3 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .webversion3 {
+        width: 100%;
+    }
+}
+
+
+.webversion-img {
+    width: 100%;
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tema_1_left {
+    padding: 0 10%;
+
+}
+
+.webdesign-call2action {
+    text-align: center;
+}
+
+li {
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        display: flex;
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .wrapper2 {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background: white;
+        color: black;
+        text-decoration-color: black;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .wrapper2 {
+        width: 100%;
+        height: auto;
+        background: white;
+        color: black;
+        text-decoration-color: black;
+
+
+
+    }
+}
+
+.wrapper2 p,
+.wrapper2 li,
+.wrapper2 ul,
+.wrapper2 h2 {
+    color: black;
+
+}
+
+.wrapper2 h2 {
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.contenttekst {
+    padding: 5%;
+}
+
+
+
+.wrapper h2 {
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.contentbottom {
+    text-align: center;
+    color: white;
+
+
+
+}
+
+.contentbottom a {
+    text-align: center;
+    color: white;
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contentvideo2 {
+        margin: auto;
+        padding-right: 5%;
+
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .contentvideo2 {
+        margin: auto;
+    }
+}
+
+.animations_pic a img {
+    width: 100%;
+
+
+
+
+}
+
+.animations_pic {
+    margin: auto;
+}
+
+animations_top {}
+
+.karakterdesign {
+    padding: 5% 0 0 0;
+    width: 45%;
+
+}
+
+.linkhover {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.linkhover:hover {
+
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.baggrundsbilleder img {
+    width: 100%;
+
+
+
+}
+
+.figcaption {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.figimg {
+    width: 46%;
+    float: left;
+    padding: 2%;
+
+
+}
+
+.sos_billede img {
+    width: 100%;
+}
+
+.linkhover a {
+    color: white;
+}
+
+.wrapperani {
+    padding: 0 15px;
+
 
 
 }
