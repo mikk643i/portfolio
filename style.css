@@ -131,13 +131,23 @@ h3 {
 
 
 .column {
-
+    display: flex;
     padding: 50px;
     transition: transform .2s;
     /* Animation */
     width: 200px;
     height: 200px;
     margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .temaer {
+        width: 100%;
+        display: inline-block;
+
+
+    }
 }
 
 
