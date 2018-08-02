@@ -130,7 +130,7 @@ h3 {
 
 
 
-.column {
+.column a {
     display: flex;
     padding: 50px;
     transition: transform .2s;
