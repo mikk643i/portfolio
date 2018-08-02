@@ -119,16 +119,27 @@ h3 {
 }
 
 .temaer {
+
+    width: 100%;
     display: flex;
+    padding: 10px;
+
+
 
 }
 
 
 
 .column {
-    flex: 100%;
-    padding: 5px;
+    padding: 8px;
+    margin: auto;
 }
+
+
+
+
+
+
 
 .overskrift,
 h1 {
@@ -284,8 +295,11 @@ li {
 
 }
 
+
 @media screen and (min-width: 1024px) {
     .contentvideo2 {
+        width: 650px;
+        height: 365px;
         margin: auto;
         padding-right: 5%;
 
@@ -400,7 +414,6 @@ li {
 }
 
 .unlisted {
-    width: 30%;
     margin: auto;
     padding top: 10px;
     padding-bottom: 10px;
@@ -493,3 +506,5 @@ li {
 
 
 }
+
+.footerforside {}
